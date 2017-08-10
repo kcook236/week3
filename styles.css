@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 300px;
+  height: 400px;
+  padding: 40px;
+}
+
+div.display {
+width: 210px;
+background-color: #B0E0E6;
+color: white;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+padding-top: 10px;
+}
+
+button {
+  width: 70px;
+  height: 80px;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+button.equal {
+  background-color: #B0E0E6;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 100px;
+}
+
+button.number {
+  background-color: #00868B;
+  color: #B0E0E6;
+}
+
+button.clear {
+  background-color: #00868B;
+  color: #B0E0E6;
+}
+
+button.empty {
+  background-color: #00868B;
+  color: #B0E0E6;
+}
+
+button.placeholder {
+  background-color: #00868B;
+  color: #B0E0E6;
+  background-blend-mode: lighten;
+}
+
+button.operator {
+
+}
